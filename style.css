@@ -1,16 +1,29 @@
 body {
     display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    justify-content: space-between;
 }
 
 .header {
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
-    flex-grow: 1;
+    height: 72px;
     display: flex;
     justify-content: space-around;
-
+    align-items: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
 
 a {
     font-size: 18px;
