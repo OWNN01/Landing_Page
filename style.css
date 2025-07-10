@@ -24,7 +24,11 @@ body {
 }
 
 .first-content {
-    height: 300px;
+    background-color: #1f2937;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .second-content {
@@ -58,4 +62,35 @@ li {
 ul {
     display: flex;
     margin: 16px 0px;
+}
+
+.hero-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 8px;
+}
+
+.hero-two {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 75px;
+    text-align: center;
+    padding: 6px 16px;
+    border-radius: 10px;
+}
+
+img {
+    height: 250px;
+    width: 450px;
+    margin-left: 100px;
+}
+
+.first-text {
+    width: 450px;
 }
