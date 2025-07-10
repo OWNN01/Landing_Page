@@ -1,8 +1,9 @@
 body {
+    font-family: "Roboto";
     display: flex;
     flex-direction: column;
-    font-family: "Roboto";
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin: 0;
 }
 
 .header {
@@ -15,6 +16,25 @@ body {
     align-items: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.first-content {
+    height: 300px;
+}
+
+.second-content {
+    height: 300px;
+}
+
+.third-content {
+    height: 300px;
+}
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -23,7 +43,6 @@ body {
     align-items: center;
     height: 72px;
 }
-
 
 a {
     font-size: 18px;
