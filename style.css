@@ -94,10 +94,22 @@ ul {
 .sign-up {
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 75px;
+    width: 100px;
     text-align: center;
     padding: 6px 16px;
     border-radius: 10px;
+}
+
+.sign-up-two {
+    width: 200px;
+    text-align: center;
+    padding: 6px 16px;
+    border-radius: 10px;
+    margin-right: 200px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 30px;
 }
 
 .first-image {
@@ -158,4 +170,31 @@ ul {
     font-size: 24px;
     font-weight: 900;
     margin-left: 400px;
+}
+
+.blue-rectangle {
+    background-color: #3882F6;
+    width: 1500px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action {
+    margin-left: 200px;
+}
+
+.call-to-action-one {
+    color: #E5E7EB;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.call-to-action-two {
+    color: #E5E7EB;
+    font-size: 20px;
+    margin: 0px;
 }
